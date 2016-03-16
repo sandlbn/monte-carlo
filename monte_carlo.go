@@ -30,8 +30,8 @@ func main() {
 	runs := []struct {
 		samples int
 	}{
-		{100},
-		{1000},
+		{200},
+		{300},
 	}
 
 	for {
