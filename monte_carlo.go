@@ -30,14 +30,13 @@ func main() {
 	runs := []struct {
 		samples int
 	}{
-		{100},
-		{150},
+		{50},
 	}
 
 	for {
 		for _, run := range runs {
 			fmt.Printf("pi=%f runs=%d\n", simulate(run.samples), run.samples)
-			time.Sleep(3 * time.Millisecond)
+			time.Sleep(5 * time.Millisecond)
 
 		}
 
